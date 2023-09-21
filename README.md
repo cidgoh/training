@@ -5,7 +5,7 @@ This repository collects the CIDGOH training materials about genomics data analy
 ## Index of the Material
 
 - Genomics data analysis (@azmigueldario)
-  - [raw sequencing reads processing](genomics_data_analysis/raw_reads_processing.ipynb)
+  - [Raw sequencing reads processing](genomics_data_analysis/raw_reads_processing.ipynb)
   - [Genome assembly and quality control of assembly](genomics_data_analysis/genome_assembly.ipynb)
   - [Annotation of genomes](genomics_data_analysis/annotation_genomes.ipynb)
 - cg-MLST analysis (@jimmyliu1326)
@@ -36,7 +36,13 @@ They can be executed directly by accessing the web interface of the seagull clus
 Open up a terminal inside Jupyter and run the following command to copy all the necessary files into your home directory. Everything else, including tools and data, should be easily accessible once you start to execute the tutorial notebooks.
 
 ```sh
+# change into your home directory at seagull
+cd ~
 
+# download the three tutorial notebooks there
+wget https://github.com/cidgoh/training/blob/main/genomics_data_analysis/annotation_genomes.ipynb \
+    https://github.com/cidgoh/training/blob/main/genomics_data_analysis/genome_assembly.ipynb \
+    https://github.com/cidgoh/training/blob/main/genomics_data_analysis/raw_reads_processing.ipynb
 ```
 
 ### Troubleshooting - common issues
